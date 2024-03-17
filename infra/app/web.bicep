@@ -1,5 +1,5 @@
 param name string
-param location string = resourceGroup().location
+param location string = 'westeurope'
 param tags object = {}
 
 param serviceName string = 'web'
